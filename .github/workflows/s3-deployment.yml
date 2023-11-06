@@ -42,4 +42,4 @@ jobs:
       - name: Deploy
         if: success()
         # run: aws s3 sync ./dist/apps/apollo-ui/ s3://ideal-pancake
-        run: aws s3 sync ./dist/angular-tour-of-heroes/ s3://paige-tour-of-heroes
+        run: aws s3 sync ./dist/angular-tour-of-heroes/dashboard s3://paige-tour-of-heroes/dashboard
